@@ -119,3 +119,15 @@ while condition:
     if user_input == "exit":
         condition = False
     print(input("write exit to close it"))
+
+
+#pass is used to stop the programe and move on another programe
+# An empty loop
+a = 'geeksforgeeks'
+i = 0
+
+while i < len(a):
+    i += 1
+    pass
+  
+print('Value of i :', i)
